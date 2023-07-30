@@ -57,11 +57,10 @@
     
       .buttons {
         position: absolute; /* Set the buttons container to absolute position */
-        bottom: 10px; /* Adjust this value as needed to control the distance from the bottom */
-        left: 50%; /* Horizontally center the buttons container */
-        transform: translateX(-50%); /* Move the container left by 50% of its width to center it */
+        top: 170vw; /* Adjust this value as needed to control the distance from the bottom */
+        left: 17vw; /* Horizontally center the buttons container */
         display: flex; /* Use flexbox to display buttons side by side */
-        justify-content: center; /* Center the buttons horizontally within the container */
+        justify-content: center;; /* Center the buttons horizontally within the container */
         padding-bottom: 45px;
     }
 
