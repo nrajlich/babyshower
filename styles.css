@@ -32,7 +32,9 @@
   .button2 {
     background-color: #ececeb;
     color: rgb(0, 0, 0);
+    white-space: nowrap;
     padding: 10px 20px;
+
     /* Adjust these values to change the button size */
     border: none;
     /* Remove the default button border */
@@ -90,7 +92,7 @@
     .buttonsweb {
         position: absolute; /* Set the buttons container to absolute position */
         top: 38vw; /* Adjust this value as needed to control the distance from the bottom */
-        left: 12vw; /* Horizontally center the buttons container */
+        left: 13vw; /* Horizontally center the buttons container */
         display: flex; /* Use flexbox to display buttons side by side */
         justify-content: center; /* Center the buttons horizontally within the container */
         padding-bottom: 45px;
