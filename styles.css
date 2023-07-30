@@ -9,7 +9,15 @@
     width: 400px; /* adjust as needed */
     height: auto; /* maintains the aspect ratio */
     margin: 0;
-    padding: 0;
+    padding: 0;}
+
+.addressb a {
+    cursor: pointer;
+    position: absolute; 
+    top: 66vw; 
+    left: 13vw;
+    font-size: 22px;
+    color: #96b57b;
 }
 .button1 {
     background-color: #ececeb;
@@ -59,7 +67,7 @@
     
       .buttons {
         position: absolute; /* Set the buttons container to absolute position */
-        top: 170vw; /* Adjust this value as needed to control the distance from the bottom */
+        top: 167vw; /* Adjust this value as needed to control the distance from the bottom */
         left: 17vw; /* Horizontally center the buttons container */
         display: flex; /* Use flexbox to display buttons side by side */
         justify-content: center;; /* Center the buttons horizontally within the container */
@@ -97,12 +105,14 @@
         display: flex; /* Use flexbox to display buttons side by side */
         justify-content: center; /* Center the buttons horizontally within the container */
         padding-bottom: 45px;
+        cursor: pointer;
     }
 
     
       
 
       .button3 {
+        cursor: pointer;
         background-color: #96b57b;
         color: rgb(0, 0, 0);
         padding: 10px 20px;
@@ -123,28 +133,26 @@
       }
     
       .button4 {
+        cursor: pointer;
         background-color: #96b57b;
         color: rgb(0, 0, 0);
         padding: 10px 20px;
-        /* Adjust these values to change the button size */
         border: none;
-        /* Remove the default button border */
         border-radius: 5px;
-        /* Optional: give the buttons rounded corners */
         cursor: pointer;
-        /* Change the cursor when hovering over the buttons */
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
         transition: transform 0.2s ease;
-        /* Optional: add a transition effect when hovering over the buttons */
+      
       }
 
 .address a {
-    position: absolute; /* Set the buttons container to absolute position */
-    top: 25vw; /* Adjust this value as needed to control the distance from the bottom */
+    cursor: pointer;
+    position: absolute; 
+    top: 25vw; 
     left: 12.5vw;
     font-size: 20px;
     color: #96b57b;
@@ -153,7 +161,7 @@
 .button3:hover,
   .button4:hover
    { cursor: pointer;
-    background-color: rgba(215, 215, 215, 0.8); /* Change the background color on hover */
+    background-color: rgba(215, 215, 215, 0.8); 
   }
   }
   
