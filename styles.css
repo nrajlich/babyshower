@@ -92,6 +92,10 @@ body {
 
 
 @media (min-width: 992px) {
+
+    .addressb a {
+        display: none;
+    }
     .webimage img {
       display: block; /* Show the image as a block element */
       width: 100%; /* Ensure the image doesn't exceed its container */
@@ -103,7 +107,7 @@ body {
     .buttonsweb {
         position: absolute; /* Set the buttons container to absolute position */
         top: 38vw; /* Adjust this value as needed to control the distance from the bottom */
-        left: 13vw; /* Horizontally center the buttons container */
+        left: 12.5vw; /* Horizontally center the buttons container */
         display: flex; /* Use flexbox to display buttons side by side */
         justify-content: center; /* Center the buttons horizontally within the container */
         padding-bottom: 45px;
@@ -151,12 +155,12 @@ body {
       
       }
 
-.address b {
+.address a {
     cursor: pointer;
     position: absolute; 
     top: 25vw; 
-    left: 12.5vw;
-    font-size: 20px;
+    left: 10vw;
+    font-size: 1.8vw;
     color: #96b57b;
 }
 
