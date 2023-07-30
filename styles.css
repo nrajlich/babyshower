@@ -14,8 +14,8 @@
 .addressb a {
     cursor: pointer;
     position: absolute; 
-    top: 66vw; 
-    left: 13vw;
+    top: 58vw; 
+    left: 15vw;
     font-size: 22px;
     color: #96b57b;
 }
@@ -67,7 +67,7 @@
     
       .buttons {
         position: absolute; /* Set the buttons container to absolute position */
-        top: 167vw; /* Adjust this value as needed to control the distance from the bottom */
+        top: 152vw; /* Adjust this value as needed to control the distance from the bottom */
         left: 17vw; /* Horizontally center the buttons container */
         display: flex; /* Use flexbox to display buttons side by side */
         justify-content: center;; /* Center the buttons horizontally within the container */
