@@ -1,0 +1,161 @@
+
+
+@media (max-width: 991px) {
+
+.webimage {
+    display:none;
+}
+.masterpiece img {
+    width: 400px; /* adjust as needed */
+    height: auto; /* maintains the aspect ratio */
+}
+.button1 {
+    background-color: #ececeb;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    /* Adjust these values to change the button size */
+    border: none;
+    /* Remove the default button border */
+    border-radius: 5px;
+    /* Optional: give the buttons rounded corners */
+    cursor: pointer;
+    /* Change the cursor when hovering over the buttons */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: transform 0.2s ease;
+    /* Optional: add a transition effect when hovering over the buttons */
+  }
+
+  .button2 {
+    background-color: #ececeb;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    /* Adjust these values to change the button size */
+    border: none;
+    /* Remove the default button border */
+    border-radius: 5px;
+    /* Optional: give the buttons rounded corners */
+    cursor: pointer;
+    /* Change the cursor when hovering over the buttons */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: transform 0.2s ease;
+    /* Optional: add a transition effect when hovering over the buttons */
+  }
+  
+    .masterpiece {
+        position: relative; /* Set the container to relative position */
+      }
+    
+      .buttons {
+        position: absolute; /* Set the buttons container to absolute position */
+        bottom: 10px; /* Adjust this value as needed to control the distance from the bottom */
+        left: 50%; /* Horizontally center the buttons container */
+        transform: translateX(-50%); /* Move the container left by 50% of its width to center it */
+        display: flex; /* Use flexbox to display buttons side by side */
+        justify-content: center; /* Center the buttons horizontally within the container */
+        padding-bottom: 45px;
+    }
+
+    
+      .button1,
+      .button2 {
+        margin: 0 5px; /* Add some spacing between the buttons */
+      
+        
+
+  }
+      }
+
+      .buttonsweb {
+        display: none;
+      }
+
+
+@media (min-width: 992px) {
+    .webimage img {
+      display: block; /* Show the image as a block element */
+      width: 100%; /* Ensure the image doesn't exceed its container */
+      
+    }
+    .masterpiece {
+        display: none;
+    }
+    .buttonsweb {
+        position: absolute; /* Set the buttons container to absolute position */
+        top: 38vw; /* Adjust this value as needed to control the distance from the bottom */
+        left: 12vw; /* Horizontally center the buttons container */
+        display: flex; /* Use flexbox to display buttons side by side */
+        justify-content: center; /* Center the buttons horizontally within the container */
+        padding-bottom: 45px;
+    }
+
+    
+      
+
+      .button3 {
+        background-color: #96b57b;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        /* Adjust these values to change the button size */
+        border: none;
+        /* Remove the default button border */
+        border-radius: 5px;
+        /* Optional: give the buttons rounded corners */
+        cursor: pointer;
+        /* Change the cursor when hovering over the buttons */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: transform 0.2s ease;
+        /* Optional: add a transition effect when hovering over the buttons */
+      }
+    
+      .button4 {
+        background-color: #96b57b;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        /* Adjust these values to change the button size */
+        border: none;
+        /* Remove the default button border */
+        border-radius: 5px;
+        /* Optional: give the buttons rounded corners */
+        cursor: pointer;
+        /* Change the cursor when hovering over the buttons */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: transform 0.2s ease;
+        /* Optional: add a transition effect when hovering over the buttons */
+      }
+
+.address a {
+    position: absolute; /* Set the buttons container to absolute position */
+    top: 25vw; /* Adjust this value as needed to control the distance from the bottom */
+    left: 12.5vw;
+    font-size: 20px;
+    color: #96b57b;
+}
+
+.button3:hover,
+  .button4:hover
+   { cursor: pointer;
+    background-color: rgba(215, 215, 215, 0.8); /* Change the background color on hover */
+  }
+  }
+  
+  
+  
+  
+  
+  
