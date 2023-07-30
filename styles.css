@@ -1,127 +1,94 @@
-
 body {
     margin: 0;
 }
+
 @media (max-width: 991px) {
+    .webimage {
+        display: none;
+    }
+
+    .masterpiece {
+        width: 100%;
+        /* adjust as needed */
+        height: auto;
+        /* maintains the aspect ratio */
+        margin: 0;
+        padding: 0;
+    }
 
     .address a {
-        display: none;
+        cursor: pointer;
+        position: absolute;
+        top: 55vw;
+        left: 16vw;
+        font-size: 5vw;
+        color: #96b57b;
     }
 
-.webimage {
-    display:none;
-}
-.masterpiece img {
-    width: 100%; /* adjust as needed */
-    height: auto; /* maintains the aspect ratio */
-    margin: 0;
-    padding: 0;}
+    .buttons button {
+        background-color: #ececeb;
+        color: rgb(0, 0, 0);
+        white-space: nowrap;
+        padding: 10px 20px;
 
-.addressb a {
-    cursor: pointer;
-    position: absolute; 
-    top: 55vw; 
-    left: 16vw;
-    font-size: 5vw;
-    color: #96b57b;
-}
-.button1 {
-    background-color: #ececeb;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    /* Adjust these values to change the button size */
-    border: none;
-    /* Remove the default button border */
-    border-radius: 5px;
-    /* Optional: give the buttons rounded corners */
-    cursor: pointer;
-    /* Change the cursor when hovering over the buttons */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition: transform 0.2s ease;
-    /* Optional: add a transition effect when hovering over the buttons */
-  }
-
-  .button2 {
-    background-color: #ececeb;
-    color: rgb(0, 0, 0);
-    white-space: nowrap;
-    padding: 10px 20px;
-
-    /* Adjust these values to change the button size */
-    border: none;
-    /* Remove the default button border */
-    border-radius: 5px;
-    /* Optional: give the buttons rounded corners */
-    cursor: pointer;
-    /* Change the cursor when hovering over the buttons */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition: transform 0.2s ease;
-    /* Optional: add a transition effect when hovering over the buttons */
-  }
-  
-    .masterpiece {
-        position: relative; /* Set the container to relative position */
-      }
-    
-      .buttons {
-        position: absolute; /* Set the buttons container to absolute position */
-        top: 152vw; /* Adjust this value as needed to control the distance from the bottom */
-        left: 17vw; /* Horizontally center the buttons container */
-        display: flex; /* Use flexbox to display buttons side by side */
-        justify-content: center;; /* Center the buttons horizontally within the container */
-        padding-bottom: 45px;
+        /* Adjust these values to change the button size */
+        border: none;
+        /* Remove the default button border */
+        border-radius: 5px;
+        /* Optional: give the buttons rounded corners */
+        cursor: pointer;
+        /* Change the cursor when hovering over the buttons */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 4.5vw;
+        margin: 4px 2px;
+        transition: transform 0.2s ease;
+        /* Optional: add a transition effect when hovering over the buttons */
     }
 
-    
-      .button1,
-      .button2 {
-        margin: 0 5px; /* Add some spacing between the buttons */
-      
-        
-
-  }
-      }
-
-      .buttonsweb {
-        display: none;
-      }
-
+    .buttons {
+        position: absolute;
+        /* Set the buttons container to absolute position */
+        top: 147vw;
+        /* Adjust this value as needed to control the distance from the bottom */
+        left: 18vw;
+        /* Horizontally center the buttons container */
+        display: flex;
+        /* Use flexbox to display buttons side by side */
+        justify-content: center;
+    }
+}
 
 @media (min-width: 992px) {
+    .webimage {
+        display: block;
+        /* Show the image as a block element */
+        width: 100%;
+        /* Ensure the image doesn't exceed its container */
 
-    .addressb a {
-        display: none;
     }
-    .webimage img {
-      display: block; /* Show the image as a block element */
-      width: 100%; /* Ensure the image doesn't exceed its container */
-      
-    }
+
     .masterpiece {
         display: none;
     }
-    .buttonsweb {
-        position: absolute; /* Set the buttons container to absolute position */
-        top: 38vw; /* Adjust this value as needed to control the distance from the bottom */
-        left: 12.5vw; /* Horizontally center the buttons container */
-        display: flex; /* Use flexbox to display buttons side by side */
-        justify-content: center; /* Center the buttons horizontally within the container */
+
+    .buttons {
+        position: absolute;
+        /* Set the buttons container to absolute position */
+        top: 38vw;
+        /* Adjust this value as needed to control the distance from the bottom */
+        left: 10.5vw;
+        /* Horizontally center the buttons container */
+        display: flex;
+        /* Use flexbox to display buttons side by side */
+        justify-content: center;
+        /* Center the buttons horizontally within the container */
         padding-bottom: 45px;
         cursor: pointer;
     }
 
-    
-      
-
-      .button3 {
+    .buttons button {
         cursor: pointer;
         background-color: #96b57b;
         color: rgb(0, 0, 0);
@@ -136,47 +103,22 @@ body {
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 1.5vw;
         margin: 4px 2px;
-        transition: transform 0.2s ease;
         /* Optional: add a transition effect when hovering over the buttons */
-      }
-    
-      .button4 {
-        cursor: pointer;
-        background-color: #96b57b;
-        color: rgb(0, 0, 0);
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        transition: transform 0.2s ease;
-      
-      }
+    }
 
-.address a {
-    cursor: pointer;
-    position: absolute; 
-    top: 25vw; 
-    left: 10vw;
-    font-size: 1.8vw;
-    color: #96b57b;
+    .address a {
+        cursor: pointer;
+        position: absolute;
+        top: 25vw;
+        left: 10vw;
+        font-size: 1.8vw;
+        color: #96b57b;
+    }
+
+    .buttons button:hover {
+        cursor: pointer;
+        background-color: rgba(215, 215, 215, 0.8);
+    }
 }
-
-.button3:hover,
-  .button4:hover
-   { cursor: pointer;
-    background-color: rgba(215, 215, 215, 0.8); 
-  }
-  }
-  
-  
-  
-  
-  
-  
